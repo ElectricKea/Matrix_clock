@@ -28,21 +28,6 @@ void setup() {
   matrix.begin();
 }
 
-//void time_sec(){
-//  tmElements_t tm;
-//  matrix.setCursor(0,9);
-//  print2digits(tm.Second);
-//  if (now_hour != tm.Hour) {
-//      for (x=0; x<15; x++){
-//          for (y=9;y<16; y++){
-//            matrix.drawPixel(x,y, matrix.Color333(0,0,0));
-//          }
-//      }
-//  }
-//  now_sec = tm.Second;
-//}
-
-
 void time_print() {
   matrix.setTextSize(1);
   tmElements_t tm;
